@@ -27,7 +27,7 @@ export default function LostFoundPage() {
   const [images, setImages] = useState([]);
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    
 
     const payload = {
       type: mode,
